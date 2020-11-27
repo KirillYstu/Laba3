@@ -1,0 +1,105 @@
+header {
+    height: 50px;
+    width: 90%;
+    background-color: #5181b8;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+input {
+    height: 30px;
+    width: 20%;
+    margin-left: 78%;
+    border: 1px solid #224b7a;
+    border-radius: 14px;
+    margin-top: -15px;
+    background-color: #224b7a;
+}
+input:hover {
+    background-color: white;
+    border-radius: 14px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 16px;
+    padding: 16px 20px;
+}
+a:hover {
+    background-color: #224b7a;
+}
+nav {
+    margin-left: 40px;
+}
+.back {
+    background: url(https://mydapperself.com/wp-content/uploads/2015/02/Background-Redes-Sociales-1024x640.jpg);
+    height: 250px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20%;
+    padding-top: 100px;
+}
+h3 {
+    margin-left: 10%;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;    
+}
+.img1 {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.imgw {
+    height: 300px;
+    width: 400px;
+}
+.img2 {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.imgq {
+    height: 200px;
+    width: 300px;
+}
+.conteiner1 {
+    width: 90%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteiner2 {
+    width: 90%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 1433px) {
+  .conteiner1{
+      height: 700px;
+}
+}
+@media screen and (max-width: 966px) {
+    .conteiner1{
+        height: 1000px;
+  }
+  .img1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  }
